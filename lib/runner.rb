@@ -5,4 +5,6 @@ def runner
   total = initial_round
   hit?(total)
   if total >21
+    endgame(total)
+  end
 end
